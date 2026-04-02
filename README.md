@@ -1,35 +1,94 @@
-🧠 Product Analytics Funnel Project
-📌 Overview
+# 🧠 Product Analytics Funnel Project
 
-This project simulates a product analytics workflow by tracking user behavior on a landing page and analyzing engagement using Amplitude.
+## 📌 Overview
+This project simulates a real-world product analytics workflow by tracking user behavior on a landing page and analyzing engagement using Amplitude.
 
-🛠️ Tools Used
-Amplitude
-Framer (no-code landing page builder)
-📊 Key Features
-Event tracking for user interactions
-Funnel analysis to measure conversion rates
-Behavioral cohort creation to segment high-intent users
-📈 Funnel Analysis
+The goal was to understand how users interact with the page and identify opportunities to improve conversion.
 
-A funnel was created to analyze user progression from landing page view to CTA interaction.
+---
 
-Steps:
+## 🛠️ Tools Used
+- Amplitude (Product Analytics)
+- Framer (No-code landing page builder)
 
-Page Viewed
-User Interaction (CTA click)
+---
 
-This helps identify drop-off points in the user journey.
+## 📊 Funnel Analysis
 
-👥 Behavioral Cohort
+The funnel measures user progression from visiting the landing page to interacting with the site.
 
-A cohort was created to group users who interacted with the primary CTA (“Sign Up”), representing high-intent users.
+### Funnel Steps:
+1. Page Viewed  
+2. User Interaction (CTA clicks such as "Sign Up" or "Request Demo")
 
-💡 Key Insights
-Not all users who visit the page take action, indicating a drop-off in engagement
-Users who interact with CTAs show higher intent and are valuable for further analysis
-Optimizing CTA design and messaging could improve conversion rates
-🚀 Future Improvements
-A/B testing CTA variations
-Tracking additional user behaviors (scroll depth, time on page)
-Integrating more detailed event tracking
+### Key Result:
+- **Conversion Rate: 25%**
+- 4 users visited the page
+- 1 user interacted with a CTA
+
+This indicates a drop-off between initial visit and user engagement.
+
+---
+
+## 📸 Funnel Visualization
+
+![Funnel Analysis](images/funnel_analysis.png)
+
+---
+
+## 📈 Traffic & Engagement Metrics
+
+Additional analytics were used to understand user behavior:
+
+- Visitors: 4  
+- Average Session Duration: 4m 6s  
+- Sessions per User: 1  
+- Bounce Rate: 0%  
+
+These metrics suggest users are engaging with the page, but not all are taking action.
+
+---
+
+## 📸 Traffic Dashboard
+
+![Traffic by Channel](images/traffic_by_channel.png)
+
+---
+
+## 👥 Behavioral Cohort
+
+A behavioral cohort was created to group users who interacted with the CTA buttons.
+
+This cohort represents **high-intent users**, which can be used for:
+- Targeted analysis
+- Conversion optimization
+- Future segmentation strategies
+
+---
+
+## 💡 Key Insights
+
+- There is a noticeable drop-off between page visits and user interaction  
+- Users who engage with CTAs demonstrate higher intent  
+- Improving CTA visibility, messaging, or placement could increase conversion rates  
+
+---
+
+## 🚀 Potential Next Steps
+
+- Track more specific user interactions (e.g., button clicks by label, scroll behavior)
+- Improve event naming for clearer analysis
+- Analyze user behavior across different sessions
+- Expand dataset for more reliable insights
+
+> Note: This project was conducted in a simulated environment using a sample landing page.
+
+---
+
+## 🧾 Summary
+
+This project demonstrates the ability to:
+- Implement event tracking  
+- Build funnel analysis  
+- Create behavioral cohorts  
+- Extract actionable insights from user data  
